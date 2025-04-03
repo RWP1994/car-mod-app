@@ -1,0 +1,30 @@
+.garage-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .build-card {
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+  }
+  
+  .build-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .build-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .build-info {
+    padding: 0.5rem 1rem;
+    color: rgb(0, 0, 0);
+  }
+  

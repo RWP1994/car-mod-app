@@ -1,0 +1,41 @@
+.
+├── README.md
+├── clean-tree.txt
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   └── assets
+│       ├── backgrounds
+│       ├── bmw.jpg
+│       ├── cars
+│       ├── hellcat.jpg
+│       ├── red_hellcat.jpg
+│       └── zx14.jpg
+├── src
+│   ├── App.css
+│   ├── App.jsx
+│   ├── assets
+│   ├── components
+│   │   ├── CarViewer.css
+│   │   ├── CarViewer.jsx
+│   │   ├── Garage.jsx
+│   │   ├── GarageGallery.css
+│   │   ├── GarageGallery.jsx
+│   │   └── HomePage
+│   ├── index.css
+│   ├── main.jsx
+│   ├── models
+│   ├── pages
+│   │   ├── BuildShowcase.jsx
+│   │   ├── GaragePage.jsx
+│   │   ├── Home.jsx
+│   │   └── garagePage.css
+│   └── utils
+│       ├── applyCarMaterials.js
+│       └── proOverrides.js
+├── tree-log.txt
+└── vite.config.js
+
+12 directories, 27 files
