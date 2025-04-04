@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "username": "coolUser",
+    "password": "$2b$10$VP1fuAAPZyFZvr8UKWnZz.HqpL5K3OEeu9onhNvyX7LzFOGPw/Wne",
+    "bio": "",
+    "avatarUrl": "",
+    "garage": []
+  },
+  {
+    "id": 2,
+    "username": "Rob",
+    "password": "$2b$10$Xfo/AGYyUaMK.edjl6tj/Oy1SoRZB1Nww9/JcF4ZfM/uNGaIuscam",
+    "bio": "",
+    "avatarUrl": "",
+    "garage": []
+  }
+]

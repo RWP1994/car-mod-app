@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { useGLTF } from '@react-three/drei'
+import './garageGallery.css';
+
 
 // 🔧 Mini car preview (reusable)
 function MiniCarModel({ modelPath }) {
@@ -145,20 +147,12 @@ export default function GarageGallery() {
   const [builds] = useState(mockBuilds)
 
   return (
-    <div
-      style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(700px, 1fr))',
-        gap: '2rem',
-        justifyItems: 'center',
-        paddingBottom: '2rem',
-        paddingTop: '1rem',
-      }}
-    >
-      {builds.map((build) => (
-        <PolaroidCard key={build.id} build={build} />
-      ))}
-    </div>
+    <div className="garage-gallery">
+  {builds.map((build) => (
+    <PolaroidCard key={build.id} build={build} />
+  ))}
+</div>
+
   )
 }
 
